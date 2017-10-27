@@ -25,13 +25,8 @@ function appendKitten(name){
   newKittens.push(name)
   return newKittens
 }
-function removeLastKitten(name){
+function removeLastKitten(){
   var newKittens = [...kittens]
   newKittens.pop()
-  return newKittens
-}
-function removeFirstKitten(name){
-  var newKittens = [...kittens]
-  newKittens.unshift()
   return newKittens
 }
