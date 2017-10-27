@@ -25,3 +25,13 @@ function appendKitten(name){
   newKittens.push(name)
   return newKittens
 }
+function appendKitten(name){
+  var newKittens = [kittens...]
+  newKittens.pop(name)
+  return newKittens
+}
+function appendKitten(name){
+  var newKittens = [kittens...]
+  newKittens.unshift(name)
+  return newKittens
+}
