@@ -25,9 +25,9 @@ function appendKitten(name){
   newKittens.push(name)
   return newKittens
 }
-function removeLastKitten(kitten){
+function removeLastKitten(Garfield){
   var newKittens = [...kittens]
-  newKittens.pop(kitten)
+  newKittens.pop(Garfield)
   return newKittens
 }
 function removeFirstKitten(Milo){
