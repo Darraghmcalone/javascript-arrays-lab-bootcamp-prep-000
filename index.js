@@ -1,3 +1,3 @@
-function destructivelyAppendKitten["kittens"].{
+function destructivelyAppendKitten(kittens){
 return kittens
 }
