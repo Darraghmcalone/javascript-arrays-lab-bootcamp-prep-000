@@ -30,8 +30,8 @@ function removeLastKitten(kitten){
   newKittens.pop(kitten)
   return newKittens
 }
-function removeFirstKitten(kitten){
+function removeFirstKitten(Milo){
   var newKittens = [...kittens]
-  newKittens.unshift(kitten)
+  newKittens.unshift(Milo)
   return newKittens
 }
