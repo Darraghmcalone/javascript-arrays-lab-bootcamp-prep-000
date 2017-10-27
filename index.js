@@ -25,12 +25,12 @@ function appendKitten(name){
   newKittens.push(name)
   return newKittens
 }
-function appendKitten(name){
+function removeLastKitten(name){
   var newKittens = [kittens...]
   newKittens.pop(name)
   return newKittens
 }
-function appendKitten(name){
+function removeFirstKitten(name){
   var newKittens = [kittens...]
   newKittens.unshift(name)
   return newKittens
