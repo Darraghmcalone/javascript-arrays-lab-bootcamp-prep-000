@@ -1,3 +1,3 @@
 function destructivelyAppendKitten(kittens){
-return kittens
+  return kittens
 }
