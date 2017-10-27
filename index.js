@@ -9,4 +9,5 @@ function destructivelyPrependKitten(kitten){
 }
 function removeLastKitten(kitten){
   kittens.pop(kitten)
+  kittens.shift(Otis)
 }
